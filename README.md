@@ -1,2 +1,2 @@
 # PARCIAL1CORTE
-# PUNTO 3
+
