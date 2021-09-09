@@ -15,19 +15,23 @@ Para el cálculo del valor de un libro, se tienen los siguientes parámetros: <b
 Defina las clases de equivalencia necesarias para realizar las pruebas y asegurar la calidad del programa. Estas pueden ser realizadas en cualquier archivo que sea claramente visible. <br>
 
 1. Categoría del descuento:<br>
-*correctos* <br>
-a. Empleado=true 
-b. Estudiante=true 
-c. Otros= true <br>
-*Incorrectos* 
-d. Empleado=false
-e. Estudiante=false
-f. Otros= false
-2. Calificación del libro:
-*correctos* <br>
-a. bookCategory>0 y bookCategoria<11
-b. bookCategory>10 y bookCategory<21
-c. bookCategory>20 y bookCategory<31
-*Inconrrectos* <br>
-d. bookCategoria<1  
-e. bookCategoria>30
+	*correctos* <br>
+	
+	a. Empleado=true 
+	b. Estudiante=true 
+	c. Otros= true <br>
+	*Incorrectos* 
+	
+	d. Empleado=false
+	e. Estudiante=false
+	f. Otros= false
+2. Calificación del libro: 
+	*correctos* <br>
+	
+	a. bookCategory>0 y bookCategoria<11
+	b. bookCategory>10 y bookCategory<21
+	c. bookCategory>20 y bookCategory<31 
+	
+	*Inconrrectos* <br>
+	d. bookCategoria<1  
+	e. bookCategoria>30
